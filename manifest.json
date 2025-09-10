@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "PYQ Navigator",
+    "version": "1.0",
+    "description": "Quickly search and download past year question papers from the campus server.",
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "32": "icons/icon32.png"
+        },
+        "default_title": "PYQ Navigator"
+    },
+    "permissions": [
+        "downloads",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://10.18.24.75/peqp/*"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["urls_data.json", "department_mapping.json", "search_corpus.json", "popup.js", "popup.css", "icons/*.png", "lib/*"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}

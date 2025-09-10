@@ -1,0 +1,741 @@
+{
+    "canonical_departments": [
+        {
+            "display_name": "Aerospace Engineering",
+            "codes": [
+                "AE",
+                "AERO"
+            ],
+            "search_aliases": [
+                "aero",
+                "aerospace",
+                "aerospace engineering",
+                "aerospace engineering end sem",
+                "arospace"
+            ]
+        },
+        {
+            "display_name": "Agricultural and Food Engineering",
+            "codes": [
+                "AG",
+                "AGFE"
+            ],
+            "search_aliases": [
+                "ag",
+                "agfe",
+                "agr",
+                "agrf",
+                "agrf2010",
+                "agri engineering",
+                "agri food engineering",
+                "agricilture",
+                "agricultural and food engineering",
+                "agricultural food engineering",
+                "agricultural food engineering ,",
+                "agriculture",
+                "agriculture engineering",
+                "agriculture food engineering"
+            ]
+        },
+        {
+            "display_name": "Architecture and Regional Planning",
+            "codes": [
+                "AR",
+                "ARP"
+            ],
+            "search_aliases": [
+                "architecture",
+                "architecture and regional planning",
+                "architecture planning",
+                "architecture regional planning",
+                "architecture regional planning end sem",
+                "architecture regionalplanning",
+                "architecure regional planning",
+                "archtecture",
+                "arp"
+            ]
+        },
+        {
+            "display_name": "Biotechnology",
+            "codes": [
+                "BT"
+            ],
+            "search_aliases": [
+                "bio science biotech",
+                "bio technology",
+                "bio-mass",
+                "bio-sciences",
+                "bioscience",
+                "bioscience biotechnology",
+                "biotechnology",
+                "fo bioscience"
+            ]
+        },
+        {
+            "display_name": "Chemical Engineering",
+            "codes": [
+                "CH",
+                "CHE"
+            ],
+            "search_aliases": [
+                "che engineering",
+                "chemical",
+                "chemical engineering",
+                "chemical engineering end sem"
+            ]
+        },
+        {
+            "display_name": "Chemistry",
+            "codes": [
+                "CHY",
+                "CY"
+            ],
+            "search_aliases": [
+                "chemistry",
+                "chemistry end sem",
+                "chy"
+            ]
+        },
+        {
+            "display_name": "Civil Engineering",
+            "codes": [
+                "CE",
+                "CIV"
+            ],
+            "search_aliases": [
+                "bridge engineering",
+                "civ engineering",
+                "civil",
+                "civil engineering",
+                "civil engineering end sem",
+                "structural engineering railway engineering",
+                "water resources"
+            ]
+        },
+        {
+            "display_name": "Computer Science and Engineering",
+            "codes": [
+                "CS",
+                "CSE"
+            ],
+            "search_aliases": [
+                "artificial intelligence",
+                "comp science",
+                "comp science engineering",
+                "computer science",
+                "computer science and engineering",
+                "computer science departmrnt",
+                "computer science engineering",
+                "computer science engineering end sem",
+                "cse"
+            ]
+        },
+        {
+            "display_name": "Cryogenic Engineering",
+            "codes": [
+                "CRY",
+                "CRYO",
+                "CR"
+            ],
+            "search_aliases": [
+                "cryogenic",
+                "cryogenic engineering"
+            ]
+        },
+        {
+            "display_name": "Electrical Engineering",
+            "codes": [
+                "EE",
+                "ELE"
+            ],
+            "search_aliases": [
+                "e engineering",
+                "ele",
+                "electric engineering",
+                "electrical",
+                "electrical engineering",
+                "electrical engineering end sem"
+            ]
+        },
+        {
+            "display_name": "Electronics and Electrical Communication Engineering",
+            "codes": [
+                "EC",
+                "ECE"
+            ],
+            "search_aliases": [
+                "e ece",
+                "e ece depatrment",
+                "e ece end sem",
+                "e ece engineering",
+                "ece",
+                "ece electrical engineering",
+                "electronic electrical communication engineering",
+                "electronics and electrical communication engineering",
+                "electronics e communication engineering",
+                "electronics electrical",
+                "electronics electrical communication",
+                "electronics electrical communication engineering",
+                "electronics electrical engineering"
+            ]
+        },
+        {
+            "display_name": "Energy Science and Engineering",
+            "codes": [
+                "ES",
+                "ESE"
+            ],
+            "search_aliases": [
+                "energy science",
+                "energy science and engineering",
+                "energy science engineering",
+                "energy science technology",
+                "energy scienec engineering"
+            ]
+        },
+        {
+            "display_name": "Environmental Science and Engineering",
+            "codes": [
+                "EV",
+                "EVSC"
+            ],
+            "search_aliases": [
+                "env science",
+                "environment science",
+                "environmental science",
+                "environmental science and engineering",
+                "environmental science engineering",
+                "environmental sciences",
+                "ese",
+                "ev science",
+                "sese"
+            ]
+        },
+        {
+            "display_name": "Geology and Geophysics",
+            "codes": [
+                "GG",
+                "GGP"
+            ],
+            "search_aliases": [
+                "geology",
+                "geology and geophysics",
+                "geology geophy",
+                "geology geophyics",
+                "geology geophysics",
+                "ggp"
+            ]
+        },
+        {
+            "display_name": "Humanities and Social Sciences",
+            "codes": [
+                "HS",
+                "HSS"
+            ],
+            "search_aliases": [
+                "hss",
+                "humanities and social sciences",
+                "humanities soc science",
+                "humanities social science",
+                "humanities social sciences",
+                "humanities social sciences end sem"
+            ]
+        },
+        {
+            "display_name": "Industrial and Systems Engineering",
+            "codes": [
+                "IEM",
+                "IM"
+            ],
+            "search_aliases": [
+                "ime",
+                "ind engineering management",
+                "industial systems engineering",
+                "industrial and systems engineering",
+                "industrial engineering",
+                "industrial engineering management",
+                "industrial engineering management end sem",
+                "industrial system",
+                "industrial system engineering",
+                "industrial systems engineering",
+                "mie"
+            ]
+        },
+        {
+            "display_name": "Materials Science and Engineering",
+            "codes": [
+                "MME",
+                "MS"
+            ],
+            "search_aliases": [
+                "matallurgical materials engineering",
+                "materiakl science",
+                "material science",
+                "materials science",
+                "materials science and engineering",
+                "mettalurgical materials engineering",
+                "mme",
+                "nano science engineering",
+                "nano science technology"
+            ]
+        },
+        {
+            "display_name": "Mathematics",
+            "codes": [
+                "MA",
+                "MATH"
+            ],
+            "search_aliases": [
+                "math",
+                "mathematics",
+                "mathematics geophysics",
+                "maths"
+            ]
+        },
+        {
+            "display_name": "Mechanical Engineering",
+            "codes": [
+                "ME",
+                "MECH"
+            ],
+            "search_aliases": [
+                "mech engineering",
+                "mechanical",
+                "mechanical end sem",
+                "mechanical engineering",
+                "meng"
+            ]
+        },
+        {
+            "display_name": "Metallurgical and Materials Engineering",
+            "codes": [
+                "METAL",
+                "MME"
+            ],
+            "search_aliases": [
+                "metallirgical materials",
+                "metallurgical",
+                "metallurgical and materials engineering",
+                "metallurgical mat engineering",
+                "metallurgical materials",
+                "metallurgical materials engineering",
+                "metallurgy"
+            ]
+        },
+        {
+            "display_name": "Mining Engineering",
+            "codes": [
+                "MI",
+                "MINE"
+            ],
+            "search_aliases": [
+                "mining",
+                "mining engineering",
+                "minning engineering"
+            ]
+        },
+        {
+            "display_name": "Naval Architecture and Ocean Engineering",
+            "codes": [
+                "NA",
+                "OE",
+                "OENA"
+            ],
+            "search_aliases": [
+                "naval",
+                "naval architecture",
+                "naval architecture and ocean engineering",
+                "oce nav architecture",
+                "ocean",
+                "ocean engineering",
+                "ocean engineering naval arch",
+                "ocean engineering naval architecture",
+                "ocean engineering novel architecture -",
+                "ocean naval",
+                "ocean naval architecture",
+                "ocean2010",
+                "ocen engineering naval architecture",
+                "oe"
+            ]
+        },
+        {
+            "display_name": "Physics",
+            "codes": [
+                "PH",
+                "PHY"
+            ],
+            "search_aliases": [
+                "phy",
+                "physics",
+                "physics meteorology",
+                "physics meteorology end sem",
+                "physiscs",
+                "specialized centers and schools"
+            ]
+        },
+        {
+            "display_name": "Advanced Technology Development Centre",
+            "codes": [
+                "ATDC"
+            ],
+            "search_aliases": [
+                "advance technology development",
+                "advanced technology development centre",
+                "atdc"
+            ]
+        },
+        {
+            "display_name": "Indian Knowledge Systems",
+            "codes": [
+                "IKS"
+            ],
+            "search_aliases": [
+                "coe-iks",
+                "excellence in indian knowledge system",
+                "excellence indian khowledge systems",
+                "excellence indian knowledge system",
+                "excellence indian knowledge systems",
+                "iks",
+                "indian knowledge system",
+                "indian knowledge systems"
+            ]
+        },
+        {
+            "display_name": "Rajendra Mishra School of Engineering Entrepreneurship",
+            "codes": [
+                "RMEE",
+                "RMSEE"
+            ],
+            "search_aliases": [
+                "rajendra mishra",
+                "rajendra mishra engineering ent",
+                "rajendra mishra engineering entepreneurship",
+                "rajendra mishra engineering entr",
+                "rajendra mishra engineering entrepreneurship",
+                "rajendra mishra school of engineering entrepreneurship",
+                "rmee",
+                "rmep",
+                "rmsee",
+                "rmsoee"
+            ]
+        },
+        {
+            "display_name": "Rajiv Gandhi School of Intellectual Property Law",
+            "codes": [
+                "RGSOIL",
+                "RGSOIPL"
+            ],
+            "search_aliases": [
+                "intellectual property law",
+                "rajiv gandhi intellectual property law",
+                "rajiv gandhi intellectual property law end sem",
+                "rajiv gandhi school of intellectual property law",
+                "rgsoil",
+                "rgsoipl"
+            ]
+        },
+        {
+            "display_name": "Rekhi Centre of Excellence for Science of Happiness",
+            "codes": [
+                "RCESH",
+                "REKHI"
+            ],
+            "search_aliases": [
+                "rcesh",
+                "rekhi",
+                "rekhi centre of excellence for science of happiness",
+                "rekhi excellence",
+                "rekhi excellence science happiness",
+                "rekhi experience science hapiness"
+            ]
+        },
+        {
+            "display_name": "Subir Chowdhury School of Quality and Reliability",
+            "codes": [
+                "SCQR",
+                "SCSQR"
+            ],
+            "search_aliases": [
+                "reliability engineering",
+                "subir chowdhury quality reliability",
+                "subir chowdhury school of quality and reliability"
+            ]
+        },
+        {
+            "display_name": "Vinod Gupta School of Management",
+            "codes": [
+                "VGSOM",
+                "VGSoM"
+            ],
+            "search_aliases": [
+                "vgsom",
+                "vinod gupta management",
+                "vinod gupta school of management"
+            ]
+        }
+    ],
+    "alias_to_canonical_map": {
+        "aerospace engineering": "Aerospace Engineering",
+        "aero": "Aerospace Engineering",
+        "aerospace": "Aerospace Engineering",
+        "aerospace engineering end sem": "Aerospace Engineering",
+        "arospace": "Aerospace Engineering",
+        "ae": "Aerospace Engineering",
+        "agricultural and food engineering": "Agricultural and Food Engineering",
+        "ag": "Agricultural and Food Engineering",
+        "agfe": "Agricultural and Food Engineering",
+        "agr": "Agricultural and Food Engineering",
+        "agrf": "Agricultural and Food Engineering",
+        "agrf2010": "Agricultural and Food Engineering",
+        "agri engineering": "Agricultural and Food Engineering",
+        "agri food engineering": "Agricultural and Food Engineering",
+        "agricilture": "Agricultural and Food Engineering",
+        "agricultural food engineering": "Agricultural and Food Engineering",
+        "agricultural food engineering ,": "Agricultural and Food Engineering",
+        "agriculture": "Agricultural and Food Engineering",
+        "agriculture engineering": "Agricultural and Food Engineering",
+        "agriculture food engineering": "Agricultural and Food Engineering",
+        "architecture and regional planning": "Architecture and Regional Planning",
+        "architecture": "Architecture and Regional Planning",
+        "architecture planning": "Architecture and Regional Planning",
+        "architecture regional planning": "Architecture and Regional Planning",
+        "architecture regional planning end sem": "Architecture and Regional Planning",
+        "architecture regionalplanning": "Architecture and Regional Planning",
+        "architecure regional planning": "Architecture and Regional Planning",
+        "archtecture": "Architecture and Regional Planning",
+        "arp": "Architecture and Regional Planning",
+        "ar": "Architecture and Regional Planning",
+        "biotechnology": "Biotechnology",
+        "bio science biotech": "Biotechnology",
+        "bio technology": "Biotechnology",
+        "bio-mass": "Biotechnology",
+        "bio-sciences": "Biotechnology",
+        "bioscience": "Biotechnology",
+        "bioscience biotechnology": "Biotechnology",
+        "fo bioscience": "Biotechnology",
+        "bt": "Biotechnology",
+        "chemical engineering": "Chemical Engineering",
+        "che engineering": "Chemical Engineering",
+        "chemical": "Chemical Engineering",
+        "chemical engineering end sem": "Chemical Engineering",
+        "che": "Chemical Engineering",
+        "ch": "Chemical Engineering",
+        "chemistry": "Chemistry",
+        "chemistry end sem": "Chemistry",
+        "chy": "Chemistry",
+        "cy": "Chemistry",
+        "civil engineering": "Civil Engineering",
+        "civ engineering": "Civil Engineering",
+        "civil": "Civil Engineering",
+        "civil engineering end sem": "Civil Engineering",
+        "bridge engineering": "Civil Engineering",
+        "structural engineering railway engineering": "Civil Engineering",
+        "water resources": "Civil Engineering",
+        "civ": "Civil Engineering",
+        "ce": "Civil Engineering",
+        "computer science and engineering": "Computer Science and Engineering",
+        "comp science": "Computer Science and Engineering",
+        "comp science engineering": "Computer Science and Engineering",
+        "computer science": "Computer Science and Engineering",
+        "computer science departmrnt": "Computer Science and Engineering",
+        "computer science engineering": "Computer Science and Engineering",
+        "computer science engineering end sem": "Computer Science and Engineering",
+        "cse": "Computer Science and Engineering",
+        "artificial intelligence": "Computer Science and Engineering",
+        "cs": "Computer Science and Engineering",
+        "cryogenic engineering": "Cryogenic Engineering",
+        "cryogenic": "Cryogenic Engineering",
+        "cry": "Cryogenic Engineering",
+        "cryo": "Cryogenic Engineering",
+        "electrical engineering": "Electrical Engineering",
+        "e engineering": "Electrical Engineering",
+        "ele": "Electrical Engineering",
+        "electric engineering": "Electrical Engineering",
+        "electrical": "Electrical Engineering",
+        "electrical engineering end sem": "Electrical Engineering",
+        "ee": "Electrical Engineering",
+        "electronics and electrical communication engineering": "Electronics and Electrical Communication Engineering",
+        "e ece": "Electronics and Electrical Communication Engineering",
+        "e ece depatrment": "Electronics and Electrical Communication Engineering",
+        "e ece end sem": "Electronics and Electrical Communication Engineering",
+        "e ece engineering": "Electronics and Electrical Communication Engineering",
+        "ece": "Electronics and Electrical Communication Engineering",
+        "ece electrical engineering": "Electronics and Electrical Communication Engineering",
+        "electronic electrical communication engineering": "Electronics and Electrical Communication Engineering",
+        "electronics e communication engineering": "Electronics and Electrical Communication Engineering",
+        "electronics electrical": "Electronics and Electrical Communication Engineering",
+        "electronics electrical communication": "Electronics and Electrical Communication Engineering",
+        "electronics electrical communication engineering": "Electronics and Electrical Communication Engineering",
+        "electronics electrical engineering": "Electronics and Electrical Communication Engineering",
+        "ec": "Electronics and Electrical Communication Engineering",
+        "energy science and engineering": "Energy Science and Engineering",
+        "energy science": "Energy Science and Engineering",
+        "energy science engineering": "Energy Science and Engineering",
+        "energy science technology": "Energy Science and Engineering",
+        "energy scienec engineering": "Energy Science and Engineering",
+        "ese": "Environmental Science and Engineering",
+        "es": "Energy Science and Engineering",
+        "environmental science and engineering": "Environmental Science and Engineering",
+        "env science": "Environmental Science and Engineering",
+        "environment science": "Environmental Science and Engineering",
+        "environmental science": "Environmental Science and Engineering",
+        "environmental science engineering": "Environmental Science and Engineering",
+        "environmental sciences": "Environmental Science and Engineering",
+        "ev science": "Environmental Science and Engineering",
+        "sese": "Environmental Science and Engineering",
+        "ev": "Environmental Science and Engineering",
+        "evsc": "Environmental Science and Engineering",
+        "geology and geophysics": "Geology and Geophysics",
+        "geology": "Geology and Geophysics",
+        "geology geophy": "Geology and Geophysics",
+        "geology geophyics": "Geology and Geophysics",
+        "geology geophysics": "Geology and Geophysics",
+        "ggp": "Geology and Geophysics",
+        "gg": "Geology and Geophysics",
+        "humanities and social sciences": "Humanities and Social Sciences",
+        "hss": "Humanities and Social Sciences",
+        "humanities soc science": "Humanities and Social Sciences",
+        "humanities social science": "Humanities and Social Sciences",
+        "humanities social sciences": "Humanities and Social Sciences",
+        "humanities social sciences end sem": "Humanities and Social Sciences",
+        "hs": "Humanities and Social Sciences",
+        "industrial and systems engineering": "Industrial and Systems Engineering",
+        "ime": "Industrial and Systems Engineering",
+        "ind engineering management": "Industrial and Systems Engineering",
+        "industrial engineering": "Industrial and Systems Engineering",
+        "industrial engineering management": "Industrial and Systems Engineering",
+        "industrial engineering management end sem": "Industrial and Systems Engineering",
+        "industrial system": "Industrial and Systems Engineering",
+        "industrial system engineering": "Industrial and Systems Engineering",
+        "industrial systems engineering": "Industrial and Systems Engineering",
+        "industial systems engineering": "Industrial and Systems Engineering",
+        "mie": "Industrial and Systems Engineering",
+        "iem": "Industrial and Systems Engineering",
+        "im": "Industrial and Systems Engineering",
+        "materials science and engineering": "Materials Science and Engineering",
+        "matallurgical materials engineering": "Materials Science and Engineering",
+        "materiakl science": "Materials Science and Engineering",
+        "material science": "Materials Science and Engineering",
+        "materials science": "Materials Science and Engineering",
+        "mettalurgical materials engineering": "Materials Science and Engineering",
+        "mme": "Metallurgical and Materials Engineering",
+        "nano science engineering": "Materials Science and Engineering",
+        "nano science technology": "Materials Science and Engineering",
+        "ms": "Materials Science and Engineering",
+        "mathematics": "Mathematics",
+        "math": "Mathematics",
+        "mathematics geophysics": "Mathematics",
+        "maths": "Mathematics",
+        "ma": "Mathematics",
+        "mechanical engineering": "Mechanical Engineering",
+        "mech engineering": "Mechanical Engineering",
+        "mechanical": "Mechanical Engineering",
+        "mechanical end sem": "Mechanical Engineering",
+        "meng": "Mechanical Engineering",
+        "me": "Mechanical Engineering",
+        "mech": "Mechanical Engineering",
+        "metallurgical and materials engineering": "Metallurgical and Materials Engineering",
+        "metallirgical materials": "Metallurgical and Materials Engineering",
+        "metallurgical": "Metallurgical and Materials Engineering",
+        "metallurgical mat engineering": "Metallurgical and Materials Engineering",
+        "metallurgical materials": "Metallurgical and Materials Engineering",
+        "metallurgical materials engineering": "Metallurgical and Materials Engineering",
+        "metallurgy": "Metallurgical and Materials Engineering",
+        "metal": "Metallurgical and Materials Engineering",
+        "mining engineering": "Mining Engineering",
+        "mining": "Mining Engineering",
+        "minning engineering": "Mining Engineering",
+        "mi": "Mining Engineering",
+        "mine": "Mining Engineering",
+        "naval architecture and ocean engineering": "Naval Architecture and Ocean Engineering",
+        "naval": "Naval Architecture and Ocean Engineering",
+        "naval architecture": "Naval Architecture and Ocean Engineering",
+        "oce nav architecture": "Naval Architecture and Ocean Engineering",
+        "ocean": "Naval Architecture and Ocean Engineering",
+        "ocean engineering": "Naval Architecture and Ocean Engineering",
+        "ocean engineering naval arch": "Naval Architecture and Ocean Engineering",
+        "ocean engineering naval architecture": "Naval Architecture and Ocean Engineering",
+        "ocean engineering novel architecture -": "Naval Architecture and Ocean Engineering",
+        "ocean naval": "Naval Architecture and Ocean Engineering",
+        "ocean naval architecture": "Naval Architecture and Ocean Engineering",
+        "ocean2010": "Naval Architecture and Ocean Engineering",
+        "ocen engineering naval architecture": "Naval Architecture and Ocean Engineering",
+        "oe": "Naval Architecture and Ocean Engineering",
+        "na": "Naval Architecture and Ocean Engineering",
+        "oena": "Naval Architecture and Ocean Engineering",
+        "physics": "Physics",
+        "phy": "Physics",
+        "physics meteorology": "Physics",
+        "physics meteorology end sem": "Physics",
+        "physiscs": "Physics",
+        "specialized centers and schools": "Physics",
+        "ph": "Physics",
+        "advanced technology development centre": "Advanced Technology Development Centre",
+        "atdc": "Advanced Technology Development Centre",
+        "advance technology development": "Advanced Technology Development Centre",
+        "indian knowledge systems": "Indian Knowledge Systems",
+        "iks": "Indian Knowledge Systems",
+        "coe-iks": "Indian Knowledge Systems",
+        "excellence in indian knowledge system": "Indian Knowledge Systems",
+        "excellence indian khowledge systems": "Indian Knowledge Systems",
+        "excellence indian knowledge system": "Indian Knowledge Systems",
+        "excellence indian knowledge systems": "Indian Knowledge Systems",
+        "indian knowledge system": "Indian Knowledge Systems",
+        "rajendra mishra school of engineering entrepreneurship": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rmee": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajendra mishra": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajendra mishra engineering ent": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajendra mishra engineering entepreneurship": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajendra mishra engineering entr": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajendra mishra engineering entrepreneurship": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rmep": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rmsee": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rmsoee": "Rajendra Mishra School of Engineering Entrepreneurship",
+        "rajiv gandhi school of intellectual property law": "Rajiv Gandhi School of Intellectual Property Law",
+        "rgsoipl": "Rajiv Gandhi School of Intellectual Property Law",
+        "intellectual property law": "Rajiv Gandhi School of Intellectual Property Law",
+        "rajiv gandhi intellectual property law": "Rajiv Gandhi School of Intellectual Property Law",
+        "rajiv gandhi intellectual property law end sem": "Rajiv Gandhi School of Intellectual Property Law",
+        "rgsoil": "Rajiv Gandhi School of Intellectual Property Law",
+        "rekhi centre of excellence for science of happiness": "Rekhi Centre of Excellence for Science of Happiness",
+        "rcesh": "Rekhi Centre of Excellence for Science of Happiness",
+        "rekhi": "Rekhi Centre of Excellence for Science of Happiness",
+        "rekhi excellence": "Rekhi Centre of Excellence for Science of Happiness",
+        "rekhi excellence science happiness": "Rekhi Centre of Excellence for Science of Happiness",
+        "rekhi experience science hapiness": "Rekhi Centre of Excellence for Science of Happiness",
+        "subir chowdhury school of quality and reliability": "Subir Chowdhury School of Quality and Reliability",
+        "reliability engineering": "Subir Chowdhury School of Quality and Reliability",
+        "subir chowdhury quality reliability": "Subir Chowdhury School of Quality and Reliability",
+        "scqr": "Subir Chowdhury School of Quality and Reliability",
+        "scsqr": "Subir Chowdhury School of Quality and Reliability",
+        "vinod gupta school of management": "Vinod Gupta School of Management",
+        "vgsom": "Vinod Gupta School of Management",
+        "vinod gupta management": "Vinod Gupta School of Management",
+        "a feg": "OTHER_GROUPINGS_PLACEHOLDER",
+        "others": "OTHER_GROUPINGS_PLACEHOLDER",
+        "midsem": "OTHER_GROUPINGS_PLACEHOLDER",
+        "end sem": "OTHER_GROUPINGS_PLACEHOLDER",
+        "education": "OTHER_GROUPINGS_PLACEHOLDER",
+        "educational technology": "OTHER_GROUPINGS_PLACEHOLDER",
+        "excellence in public policy law": "OTHER_GROUPINGS_PLACEHOLDER",
+        "excellence in safety engineering analytics": "OTHER_GROUPINGS_PLACEHOLDER",
+        "infrastructure, design management": "OTHER_GROUPINGS_PLACEHOLDER",
+        "information technology": "OTHER_GROUPINGS_PLACEHOLDER",
+        "misc": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rd": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rtc": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rural dev cen": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rural development": "OTHER_GROUPINGS_PLACEHOLDER",
+        "safety engineering": "OTHER_GROUPINGS_PLACEHOLDER",
+        "si": "OTHER_GROUPINGS_PLACEHOLDER",
+        "specific charts, graphs paper, log book etc": "OTHER_GROUPINGS_PLACEHOLDER",
+        "coral": "OTHER_GROUPINGS_PLACEHOLDER",
+        "e": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rcg": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rcg infrastructure, design management": "OTHER_GROUPINGS_PLACEHOLDER",
+        "science living systems": "OTHER_GROUPINGS_PLACEHOLDER",
+        "sciences living system": "OTHER_GROUPINGS_PLACEHOLDER",
+        "rubber technology": "OTHER_GROUPINGS_PLACEHOLDER",
+        "other_groupings_placeholder": "OTHER_GROUPINGS_PLACEHOLDER"
+    }
+}

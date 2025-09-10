@@ -1,0 +1,238 @@
+/* Universal Styles for HTML and Body - The Foundation */
+html, body {
+    margin: 0;
+    padding: 0;
+    /* This increased border-radius on html is crucial for the outer popup window corners */
+    border-radius: 16px; /* More pronounced rounded corners */
+    overflow: hidden; /* Ensures content/shadows don't spill outside rounded corners */
+    transition: box-shadow 0.3s ease; /* Global transition for the popup's shadow */
+}
+
+body {
+    font-family: 'Inter', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    width: 440px;
+    padding: 20px;
+    background-color: #f8f8fa; /* A very subtle, neutral light grey for universal appeal */
+    color: #2c2c2c;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 16px; /* Matching border-radius for body */
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header (Title) Styles */
+h1 {
+    font-size: 1.8em;
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* Search Controls Layout */
+.search-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styles - Enhanced Focus Animation */
+input[type="text"] {
+    padding: 12px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333333;
+    width: calc(100% - 30px);
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
+    outline: none;
+    background-color: #ffffff;
+}
+
+/* Button Styles - More Tactile Feedback */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: 600;
+    transition: background-color 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+}
+
+button:active {
+    background-color: #004085;
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* Status Message Styles */
+.status {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    text-align: center;
+    margin-bottom: 15px;
+    min-height: 20px;
+    font-style: italic;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Results Container Styles - Subtle Scrollbar Transition */
+.results {
+    max-height: 400px;
+    overflow-y: auto;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 20px;
+    margin-top: -10px;
+}
+
+/* Custom Scrollbar Styling (Webkit only - Chrome/Safari) */
+.results::-webkit-scrollbar {
+    width: 8px;
+}
+
+.results::-webkit-scrollbar-track {
+    background: #f8f8f8;
+    border-radius: 10px;
+}
+
+.results::-webkit-scrollbar-thumb {
+    background: #cccccc;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.results::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa;
+}
+
+/* Result List Item Styles - Fade-in and Slight Lift on Appearance/Hover */
+#resultsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Animation for result items when they are added to the DOM */
+@keyframes fadeInSlideUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 12px;
+    font-size: 0.9em;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    position: relative;
+    
+    animation: fadeInSlideUp 0.4s ease-out forwards; 
+}
+
+.result-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.result-details {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: #444444;
+}
+
+.result-details strong {
+    color: #333333;
+    font-weight: 600;
+}
+
+/* Download Button within Result Item */
+.result-link-button {
+    align-self: flex-start;
+    padding: 8px 16px;
+    background-color: #28a745;
+    font-size: 0.9em;
+    font-weight: 600;
+    box-shadow: 0 2px 6px rgba(40, 167, 69, 0.2);
+    transition: background-color 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
+}
+
+.result-link-button:hover {
+    background-color: #218838;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+}
+
+.result-link-button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.no-results {
+    text-align: center;
+    color: #888888;
+    padding: 25px;
+    font-style: italic;
+    background-color: #fcfcfc;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Basic Loading Spinner (CSS-only animation) */
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #007bff;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    display: none;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

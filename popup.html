@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PYQ Navigator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PYQ Navigator</h1>
+        <div class="search-controls">
+            <input type="text" id="subjectInput" placeholder="Subject/Code (e.g., Algorithms, CS201)" autofocus> <!-- ADD autofocus HERE -->
+            <input type="text" id="departmentInput" placeholder="Department (optional, e.g., CS, Mechanical)">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="statusMessage" class="status"></div>
+        <div id="resultsContainer" class="results">
+            <ul id="resultsList">
+                <!-- Search results will be dynamically inserted here -->
+            </ul>
+        </div>
+    </div>
+    <!-- Load Fuse.js BEFORE popup.js -->
+    <script src="lib/fuse.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
